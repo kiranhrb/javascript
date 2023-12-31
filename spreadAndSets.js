@@ -38,6 +38,7 @@ letters.add("b");
 letters.add("c");
 letters.add("c");
 letters.add("c");
+//Output: { 'a', 'b', 'c' }
 //If you add equal elements, only the first will be saved
 
 console.log(letters);
@@ -69,5 +70,5 @@ for (let i = 0; i < newArr.length; i++) {
   countObj[newArr[i]] = count;
 }
 
-console.log(countObj); // Output: Object { '1': 2, '2': 4, '3': 6, '4': 1 }
-
+console.log(countObj);
+// Output: Object { '1': 2, '2': 4, '3': 6, '4': 1 }
