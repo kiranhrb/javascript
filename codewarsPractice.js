@@ -18,3 +18,20 @@ let sheep = [true,  true,  true,  false,
     false, false, true,  true]
 
 console.log(countSheeps(sheep));
+
+
+let text = "How are you doing today?";
+const myArray = text.split(" ");
+console.log(myArray);
+//Output: [ 'How', 'are', 'you', 'doing', 'today?' ]
+
+function twiceAsOld(dadYearsOld, sonYearsOld) {
+    let yearsAgo = 2*(sonYearsOld) - dadYearsOld;
+    console.log(Math.abs(yearsAgo));
+  }
+
+twiceAsOld(50,20);
+
+/*function twiceAsOld(dadYearsOld, sonYearsOld) {
+return Math.abs(dadYearsOld - 2 * sonYearsOld);
+}*/
